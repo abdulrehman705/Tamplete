@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header ul li a {
+
+    text-decoration: none;
+    margin: 30px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header ul li a:hover {
+    background: red;
+    border-radius: 2px;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.heading img {
+    width: 200% 100%;
+}
+
+.heading .text {
+    position: absolute;
+    background-color: none;
+    font-size: 70px;
+    right: 26%;
+    margin: auto;
+    top: 50%;
+    color: red;
+}
+
+.heading .content {
+    position: absolute;
+    background-color: none;
+    right: 36%;
+    margin: auto;
+    top: 70%;
+    color: red
+}
+
+.secondpart {
+    text-align: center;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 5%;
+}
+
+.pics .img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffb3b3;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    margin: 5% 45%;
+}
+
+button :hover {
+    background: red;
+    /* border-radius: 2px; */
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.container {
+    text-align: center;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.picture .items {
+    width: 100%;
+    margin: auto;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.data p {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+footer {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.third {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
